@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.centered {
+  width: 300px;
+  height: 440px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#number {
+  font-size: 150px;
+  position: relative;
+  top: -35px;
+}
+#symbol1 {
+  font-size: 90px;
+  position: relative;
+  left: -90px;
+  top: -30px;
+}
+#symbol2 {
+  font-size: 90px;
+  transform: rotate(180deg);
+  position: relative;
+  right: -90px;
+  top: -30px;
+}
